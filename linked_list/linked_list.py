@@ -1,4 +1,6 @@
-# A singly node of a singly linked list
+# Python program to 
+# demostrate singly inked list implementation
+
 class Node:
     # constructor
     def __init__(self, data, next=None):
