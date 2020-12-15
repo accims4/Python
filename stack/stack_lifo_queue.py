@@ -2,7 +2,7 @@
 # demostrate stack implementation
 # using queue module
 
-from queue import LifoQueue
+from Queue import LifoQueue
 
 # Initializing a stack
 stack = LifoQueue(max_size = 3)

@@ -2,7 +2,7 @@
 # demostrate singly inked list implementation
 
 class Node:
-    # constructor
+    # Constructor
     def __init__(self, data, next=None):
         self.data = data
         self.next = next
@@ -13,7 +13,7 @@ class LinkedList:
     def __init__(self): 
         self.head = None
     
-    # insertion method for the linked list
+    # Insertion method for the linked list
     def insert(self, data): 
         newNode = Node(data)
         if(self.head):
@@ -24,7 +24,7 @@ class LinkedList:
         else:
             self.head = newNode
 
-    # print method for the linked list
+    # Print method for the linked list
     def printLL(self): 
         current = self.head
         while(current): 
